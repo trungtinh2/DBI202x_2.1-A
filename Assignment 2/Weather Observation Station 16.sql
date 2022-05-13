@@ -1,0 +1,4 @@
+SELECT 
+    CAST(min(LAT_N) AS Decimal(10,4))
+FROM STATION
+WHERE LAT_N > 38.7780

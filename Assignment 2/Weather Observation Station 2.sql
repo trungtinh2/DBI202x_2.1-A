@@ -1,0 +1,4 @@
+SELECT 
+    CAST(ROUND(SUM(LAT_N), 2)AS Decimal(10,2)),
+    CAST(ROUND(SUM(LONG_W), 2)AS Decimal(10,2))  
+FROM STATION
